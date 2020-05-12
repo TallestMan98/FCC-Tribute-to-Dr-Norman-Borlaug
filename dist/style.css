@@ -1,0 +1,88 @@
+main {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: repeat(7, auto);
+  justify-items: center;
+  font-size: 15px;
+  font-family: sans-serif, monospace;
+  color: hsl(0, 0%, 25%);
+  background: hsl(170, 90%, 95%);
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+}
+h2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+#img-background {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;  
+  justify-self: stretch;
+  background: hsl(170, 90%, 90%);
+  border-radius: 15px;
+  margin: 0% 2% 0% 2%;
+  max-width: 100%;
+  height: auto;
+}
+#img-div {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4; 
+  margin: 2% 16% 1% 16%;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  display: block;
+  block: inline;
+}
+#img-caption {
+  max-width: 100%;
+  height: auto;
+  margin: 1% auto 0% auto;
+}
+#tribute-info {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align: left;
+}
+#quote {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  margin: 2% 10% 2% 10%;
+  }
+#wiki {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+#ackn {  
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
